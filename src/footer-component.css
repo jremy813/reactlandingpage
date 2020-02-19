@@ -1,0 +1,64 @@
+.footer {
+  padding-left: 2rem;
+  text-align: left;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-right: 0.9rem;
+  background-color: hsl(216, 53%, 9%);
+}
+
+.footer p {
+  margin-bottom: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.flogo img {
+  margin-left: 1rem;
+}
+
+.flogo {
+  padding-bottom: 3rem;
+  padding-top: 4rem;
+  line-height: 1.9;
+}
+
+.about {
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+
+@media (min-width: 600px) {
+  .footer {
+    display: grid;
+
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    padding-left: 2rem;
+    text-align: left;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    padding-right: 0;
+    font-size: 13px;
+  }
+
+  .footer p {
+    margin-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .about {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .flogo {
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-right: 1rem;
+    width: 65%;
+  }
+}

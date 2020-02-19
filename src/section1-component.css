@@ -1,0 +1,21 @@
+.section1 {
+  text-align: center;
+  padding-top: 7rem;
+  width: 90%;
+  margin: auto;
+}
+
+.section1 p {
+  margin-bottom: 6rem;
+}
+
+@media (min-width: 1000px) {
+  .section1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 100px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    width: 80%;
+  }
+}

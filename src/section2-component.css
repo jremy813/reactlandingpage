@@ -1,0 +1,93 @@
+.section2 {
+  padding-top: 2rem;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+.hero2 img {
+  width: 350px;
+  height: auto;
+}
+
+.hero2 {
+  margin-bottom: 5rem;
+}
+
+.section2 a {
+  color: hsl(176, 68%, 64%);
+  margin-bottom: 10rem;
+}
+
+.sec2info {
+  text-align: left;
+  margin-left: 1rem;
+}
+
+.profiles {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+}
+
+.boxes {
+  padding: 1rem;
+  background: hsl(219, 30%, 18%);
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  text-align: left;
+  padding-bottom: 3rem;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+
+.boxes p {
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.testimonials {
+  padding-top: 6rem;
+}
+
+.boxes p,
+span {
+  opacity: 0.8;
+}
+
+.profileimgs {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  line-height: 0.3;
+}
+
+.profileimgs img {
+  margin-right: 1rem;
+  border-radius: 50%;
+}
+
+.profileimgs span {
+  font-size: 0.9rem;
+}
+
+@media (min-width: 1000px) {
+  .sec2grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .hero2 img {
+    height: 350px;
+  }
+
+  .sec2info {
+    padding-top: 5rem;
+  }
+
+  .testimonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    padding-bottom: 5rem;
+  }
+}
