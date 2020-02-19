@@ -10,7 +10,7 @@ function Section2() {
     <div className="section2">
       <div className="sec2grid">
         <div className="hero2">
-          <img src={Section2Logo} />
+          <img src={Section2Logo} alt="sec2 logo" />
         </div>
         <div className="sec2info">
           <h2>Stay productive, wherever you are </h2>

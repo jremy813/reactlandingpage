@@ -22,7 +22,7 @@ nav ul li {
   font-size: 15px;
 }
 
-@media (min-width: 100px) {
+@media (min-width: 1000px) {
   nav img {
     width: 230px;
   }
